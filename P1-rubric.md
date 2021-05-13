@@ -5,7 +5,7 @@ You must meet each of the requirements below to pass the project. The solution h
 
 ## 1
 Describe the methods and variables in the class DiscreteEnv which is the parent class of the Taxi V3 class.
-
+P stores
 ## 2
 Describe the methods and variables in the Taxi V3 class.
 
