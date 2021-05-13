@@ -3,9 +3,9 @@
 
 You must meet each of the requirements below to pass the project. The solution has to be submitted as a Jupyter nnotebook. 
 
-## 1
+## 1: P: for each (state, action), store the (probability, nextstate, reward, done) information based on the topology. Probability is set to 1 since there is a single deterministic nextstate given current state. action_space: id for each action; observation_space: id for each state; isd is intial state distribution and values are equiviprobable. seed(): set random seed; reset(): init the model and pick a random start state; step(): given state and action, get the next state, reward and done status by quering the P table.
 Describe the methods and variables in the class DiscreteEnv which is the parent class of the Taxi V3 class.
-P stores
+
 ## 2
 Describe the methods and variables in the Taxi V3 class.
 
