@@ -15,8 +15,8 @@ Describe the Taxi V3 environment, its actions, states, reward structure and the 
 ## 4 Submitted in P1.ipynb
 Train an algorithm to achieve a 100-episode average reward with a 5th percentile of 7.2 or higher and a 95th percentile of 8.2 or higher on the last 1000 episodes. 
 
-## 5 
+## 5 Yes, I track the total penality per episode and I see zero penalties over 1000 episodes. 
 The algorithm should be able to perform pick-ups and dropoffs with zero penalties over 1000 episodes. 
 
-## 6
+## 6 alpha = 0.7 and  gamma = .95 are hand picked after manually trying different combinations. gamma doesnt seem to impact the accuracy much, but high alpha (close to 1) hurts accuracy. I used epsilon decay such that sufficient random states are explored during the intial phase of running the model - this I do by tracking number of random choices per episode (graph). I have implemented three algorithms: qlearning, sarsa and expected-sarsa. All three seem to give desired results but I need to spend more time to analyze how one is better than the other. 
 Document your solution including all hyper parameters and how those hyperparameters were selected. 
